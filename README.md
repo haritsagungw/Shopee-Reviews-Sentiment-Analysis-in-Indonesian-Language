@@ -37,3 +37,15 @@ To build a sentiment analysis model (positive/negative) for Indonesian-language 
 - Machine Learning: scikit-learn (TfidfVectorizer, MultinomialNB, train_test_split, classification_report, accuracy_score, LabelEncoder, GridSearchCV, Pipeline).
 - Imbalanced Data Handling: imblearn (SMOTE).
 - Model Persistence: joblib.
+
+## Sentiment Analysis Distribution
+<img width="609" height="470" alt="1  Sentiment Distribution (Full Processed Dataset by TextBlob)" src="https://github.com/user-attachments/assets/2699d1b0-7ecf-4c13-a764-aaab2bcecff8" />
+
+## Frequently Occurring Words
+<img width="661" height="427" alt="2  Word Cloud of Shopee Reviews" src="https://github.com/user-attachments/assets/fdd907ca-0cc1-40f1-9a6a-fa4272a63c22" />
+
+## Confusion Matrix
+<img width="640" height="547" alt="3  Confusion Matrix" src="https://github.com/user-attachments/assets/3a1b447e-8616-4755-b32b-0dabac67cb10" />
+
+## Classification Report Heatmap
+<img width="674" height="393" alt="4  Classification Report Heatmap (Optimized Model after SMOTE)" src="https://github.com/user-attachments/assets/769dd231-0574-496a-a02a-3fb7a589f6cb" />
