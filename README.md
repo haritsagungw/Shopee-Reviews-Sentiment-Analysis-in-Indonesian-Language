@@ -27,7 +27,8 @@ git clone [https://github.com/your-username/shopee-sentiment-analysis.git](https
 cd shopee-sentiment-analysis
 pip install -r requirements.txt
 ```
-2. Inference Example
+### 2. Inference Example
+
 Load the trained artifacts and make real-time predictions:
 ``` python
 import joblib
