@@ -1,0 +1,12 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.ipynb_checkpoints/
+
+# Datasets & generated CSVs
+*.csv
+
+# Serialized model binaries (Optional: exclude if file size > 100MB)
+*.joblib
