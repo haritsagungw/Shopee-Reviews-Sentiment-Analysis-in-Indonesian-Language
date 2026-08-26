@@ -1,9 +1,6 @@
 # Shopee-Reviews-Sentiment-Analysis-in-Indonesian-Language
 
 An end-to-end NLP sentiment analysis pipeline designed to classify Indonesian e-commerce reviews (Shopee) into **Positif** or **Negatif** sentiments. The project covers raw text cleaning, morphological preprocessing, TF-IDF feature extraction, SMOTE oversampling, and model optimization using Multinomial Naive Bayes.
-
----
-
 ## Key Features
 
 * **Text Cleaning & Normalization:** Strips social media handles, URLs, hashtags, and special characters, followed by slang normalization using custom dictionary mapping.
@@ -12,9 +9,6 @@ An end-to-end NLP sentiment analysis pipeline designed to classify Indonesian e-
 * **GridSearchCV Optimization:** Tunes TF-IDF vectorizer parameters and `MultinomialNB` hyperparameters (`alpha`) via 5-fold cross-validation.
 * **Class Imbalance Handling:** Uses **SMOTE** (Synthetic Minority Over-sampling Technique) to rebalance training class distributions.
 * **Model Export & Inference:** Saves optimized vectorizers and models via `joblib` for easy deployment.
-
----
-
 ## Performance Summary
 
 | Metric | Score |
@@ -22,9 +16,6 @@ An end-to-end NLP sentiment analysis pipeline designed to classify Indonesian e-
 | **Best Cross-Validation Accuracy** | **97.69%** |
 | **Test Set Accuracy (Post-SMOTE)** | **96.15%** |
 | **Positif Class F1-Score** | **0.98** |
-
----
-
 ## Quick Start
 
 ### 1. Installation
@@ -59,9 +50,6 @@ print(f"Review: {review[0]}")
 print(f"Sentiment: {result[0]}")
 # Output: Sentiment: Positif
 ```
-
----
-
 ## Example Output
 | Input Review | Predicted Sentiment |
 | :--- | :--- |
