@@ -59,6 +59,9 @@ print(f"Review: {review[0]}")
 print(f"Sentiment: {result[0]}")
 # Output: Sentiment: Positif
 ```
+
+---
+
 ## Example Output
 | Input Review | Predicted Sentiment |
 | :--- | :--- |
