@@ -18,7 +18,7 @@ An end-to-end NLP sentiment analysis pipeline designed to classify Indonesian e-
 | **Positif Class F1-Score** | **0.98** |
 ## Quick Start
 
-### 1. Installation
+1. Installation
 
 Clone the repository and install required packages:
 
@@ -27,7 +27,7 @@ git clone [https://github.com/your-username/shopee-sentiment-analysis.git](https
 cd shopee-sentiment-analysis
 pip install -r requirements.txt
 ```
-### 2. Inference Example
+2. Inference Example
 
 Load the trained artifacts and make real-time predictions:
 ``` python
@@ -55,6 +55,3 @@ print(f"Sentiment: {result[0]}")
 | Input Review | Predicted Sentiment |
 | :--- | :--- |
 | `Shopee sangat membantu saya dalam berbelanja` | `Positif` |
-
-
-
