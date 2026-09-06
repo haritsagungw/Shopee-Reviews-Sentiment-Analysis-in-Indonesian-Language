@@ -5,7 +5,7 @@ An end-to-end NLP sentiment analysis pipeline designed to classify Indonesian e-
 
 1. Text Cleaning & Normalization: Strips social media handles, URLs, hashtags, and special characters, followed by slang normalization using custom dictionary mapping.
 2. Indonesian NLP Preprocessing: Integrates **Sastrawi** for stemming and stopword removal (with custom rules to preserve negation words like *"tidak"*).
-3. Lexicon-Based Auto-Labelling: Applies automated sentiment scoring based on positive and negative keyword lexicons[cite: 2].
+3. Lexicon-Based Auto-Labelling: Applies automated sentiment scoring based on positive and negative keyword lexicons.
 4. GridSearchCV Optimization: Tunes TF-IDF vectorizer parameters and `MultinomialNB` hyperparameters (`alpha`) via 5-fold cross-validation.
 5. Class Imbalance Handling: Uses **SMOTE** (Synthetic Minority Over-sampling Technique) to rebalance training class distributions.
 6. Model Export & Inference: Saves optimized vectorizers and models via `joblib` for easy deployment.
